@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    background-color: red;
+}
+
+p {
+    color: rebeccapurple;
+    background-color: chocolate;
+}
+
+button {
+    color: green;
+    background-color: rgb(0, 0, 0);
+}

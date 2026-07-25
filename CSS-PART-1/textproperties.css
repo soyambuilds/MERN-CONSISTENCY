@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    /* border: solid ;
+    width: 50%; */
+    text-decoration: red double underline;
+    /* text-decoration-color: red; */
+    letter-spacing: 5px;
+    font-size: 30px;
+    /* font-family: arial; */
+    /* font-family: fantasy; */
+    /* font-family: copperplate; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: copperplate , sans-serif;
+}
+
+h3 {
+    text-align: start;
+    text-decoration: blueviolet dashed line-through;
+}
+
+p {
+    /* text-align: right; */
+    text-align: justify;
+    font-weight: 400;
+    /* line-height: normal; */
+    /* line-height: 3; */
+    /* line-height: 0.5; */
+    line-height: 1.5;
+    font-size: 15px;
+    /* font-family: impact; */
+}
+
+h2 {
+    /* font-weight: normal; */
+    /* font-weight: 100; */
+    /* font-weight: 800; */
+    text-decoration: green wavy overline;
+    font-family: impact;
+}
+
+p a {
+    text-decoration: none;
+    color: red;
+}
