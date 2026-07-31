@@ -1,0 +1,122 @@
+h3 {
+    background-color: goldenrod !important;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* h3 {
+    color: purple;
+} */
+
+h1, h3 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+/* descendant Selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    color: white;
+    background-color: red;
+}
+
+div > input {
+    background-color: green;
+    color: white;
+}
+
+input[type="password"] {
+    background-color: red;
+}
+
+/* input[type] {
+    background-color: saddlebrown;
+} */
+
+/* #myid p {
+    color: green;
+    background-color: #b92b27;
+} */
+
+/* div[id="myid"] p {
+    color: #b92b27;
+    background-color: yellow;
+} */
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+button:active {
+    color: darkorange;
+    background-color: sienna;
+}
+
+p:active {
+    font-weight: bold;
+    color: pink;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+/* div:nth-of-type(2n-1) {
+    background-color: seagreen;
+} */
+
+h1::first-letter {
+    color: rgb(173, 44, 221);
+}
+
+#myid p::first-line {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myid p::selection {
+    color: yellow;
+    background-color: green;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h3 {
+    background-color: greenyellow;
+}
