@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    margin: 20px auto;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-left: 1.8rem;
+}
