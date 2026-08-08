@@ -17,6 +17,12 @@
 </head>
 
 <body>
+    <div id="screen-blocker">
+        <div class="blocker-content">
+            <h1>Desktop View Required</h1>
+            <p>Please view this site on a screen wider than 1300px.</p>
+        </div>
+    </div>
     <div class="main">
         <div class="sidebar">
             <div class="nav">
@@ -130,12 +136,21 @@
         </div>
 
         <div class="music-player">
-            <div class="album"></div>
+            <div class="album">
+                <img src="./assets/album_picture.jpeg" alt="albumpic" class="album-img">
+                <div class="album-details">
+                    <p class="album-name">Daylight</p>
+                    <p class="album-singer">David kushner</p>
+                </div>
+                <img src="./assets/album_icon1.png" alt="heart" class="album-icon">
+                <img src="./assets/album_icon2.png" alt="miniplayer" class="album-icon mini-player">
+            </div>
             <div class="player">
                 <div class="player-controls">
                     <img src="./assets/player_icon1.png" alt="icon1" class="player-control-icon">
                     <img src="./assets/player_icon2.png" alt="icon2" class="player-control-icon">
-                    <img src="./assets/player_icon3.png" alt="icon3" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon3.png" alt="icon3" class="player-control-icon"
+                        style="opacity: 1; height: 2rem;">
                     <img src="./assets/player_icon4.png" alt="icon4" class="player-control-icon">
                     <img src="./assets/player_icon5.png" alt="icon5" class="player-control-icon">
                 </div>
@@ -145,9 +160,17 @@
                     <span class="tot-time">3:33</span>
                 </div>
             </div>
-            <div class="controls"></div>
+            <div class="controls">
+                <div class="controls-icon">
+                    <img src="./assets/controls_icon1.png" alt="icon1" class="black-icon">
+                    <img src="./assets/controls_icon2.png" alt="icon2" class="black-icon">
+                    <img src="./assets/controls_icon3.png" alt="icon3" class="normal-icon">
+                    <img src="./assets/controls_icon4.png" alt="icon4" class="normal-icon">
+                    <img src="./assets/controls_icon5.png" alt="icon5" class="black-icon">
+                </div>
+                <input type="range" min="0" max="100" step="1" class="volume-bar">
+            </div>
         </div>
     </div>
 </body>
-
 </html>
