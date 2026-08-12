@@ -18,4 +18,17 @@
 
 // console.log(months);
 
-let cars = ["tata","bmw","toyota","hyundai"];
+// let cars = ["tata","bmw","toyota","hyundai"];
+
+// let months = ["january", "july", "march", "august"];
+
+// console.log(months);
+// console.log(months.splice(0,2,"july","june"));
+// console.log(months);
+
+// let lang = ["c", "c++", "html", "javascript", "python", "java", "c#", "sql"];
+
+// lang.reverse();
+// console.log(lang);
+
+// console.log(lang.indexOf("javascript"));
