@@ -15,10 +15,20 @@ button.addEventListener("click", function () {
   task.value = "";
 });
 
-let delBtns = document.querySelectorAll(".delete");
+ul.addEventListener("click", function (event) {
+  if (event.target.nodeName == "BUTTON") {
+    let listItem = event.target.parentElement;
+    listItem.remove();
+    console.log("deleted");
+  }
+});
 
-for(delBtn of delBtns) {
-    delBtn.addEventListener("Click", function() {
-        console.log("element deleted");
-    })
-}
+// let delBtns = document.querySelectorAll(".delete");
+
+// for (delBtn of delBtns) {
+//   delBtn.addEventListener("click", function () {
+//     let par = this.parentElement;
+//     console.log(par);
+//     par.remove();
+//   });
+// }
